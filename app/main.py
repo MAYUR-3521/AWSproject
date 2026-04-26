@@ -16,3 +16,7 @@ def read_item(item_id: int, q: str = None):
 @app.get("/hello")
 def hello():
     return {"msg": "hello git practice !!!"}
+
+@app.get("/test")
+def test():
+    return {"msg": "test git practice !!!"}
