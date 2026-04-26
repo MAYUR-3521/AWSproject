@@ -24,3 +24,7 @@ def test():
 @app.get("/test2")
 def test2():
     return {"msg": "test2 git practice !!! !!! !!!"}
+
+@app.get("/test3")
+def test3():
+    return {"msg": "test3 git practice !!! !!! !!! !!!"}
