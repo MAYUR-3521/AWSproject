@@ -20,3 +20,7 @@ def hello():
 @app.get("/test")
 def test():
     return {"msg": "test git practice !!! !!!"}
+
+@app.get("/test2")
+def test2():
+    return {"msg": "test2 git practice !!! !!! !!!"}
